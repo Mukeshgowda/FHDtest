@@ -14,7 +14,7 @@ public class palindrom {
                 a = a % 10000;
                 c = a / 1000;
                 a = a % 1000;
-                a = a % 100;
+                a = 1 % 100;  // Changes made
                 e = a / 10;
                 a = a % 10;
  
